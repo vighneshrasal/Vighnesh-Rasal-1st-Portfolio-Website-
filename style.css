@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(235, 187, 31);
+    font-family: 'Hind', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sidebar nav a{
+    text-decoration: none;
+    color: rgb(102, 81, 13);
+}
+.main{
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    padding-left: 12px;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.devInfo{
+    font-size: 16px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Kalam', cursive;
+    color: rgb(15, 65, 122);
+    font-size: 16px;
+}
+
+.hello{
+    font-size: 3em;
+}
+
+.about{
+    font-size: 2.5em;
+}
+
+.info{
+    font-size: 2.5em;
+    margin: 50px 160px;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.moreabout{
+    font-size: 2.2em;
+    margin-top: 23px;
+}
+
+.buttons{
+    margin-top: 34px;
+    font-size: 10px;
+}
+
+.btn{
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(175, 85, 0);
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 20px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(175, 85, 0);
+}
+.devPic img{
+    height: 58vh;
+    border-radius: 100%;
+    border-style: groove;
+    border-width: 6px;
+    border-color: rgb(235, 187, 31);
+}
+
+.contactmain{
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.contactpage{
+    font-family: 'Hind', sans-serif;
+    color: rgb(15, 65, 122);
+    padding: 0 34px;
+    padding-top: 100px;
+    margin: 50px -15px;
+}
+
+.contactpage h2{
+    font-family: 'Hind', sans-serif;
+}
+
+.contactpage form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactpage form div input{
+    width: 25vh;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 6px 0 0 0;
+    padding: 5px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: red;
+    margin: 0 5px;
+}
+
+.info h2{
+    font-family: 'Hind', sans-serif;
+    margin: 12px;
+    color: rgb(15, 65, 122);
+    font-size: 40px;
+}
+
+.info p{
+    font-family: 'Kalam', cursive;
+    margin: 12px;
+    color: rgb(15, 65, 122);
+    font-size: 20px;
+}
+
+.skillcontainer{
+    padding: 12px 0 0;
+    font-family: 'Hind', sans-serif;
+    color: rgb(15, 65, 122);
+    font-size: 30px;
+}
+
+.skillcontainer img{
+    width: 100px;
+    height: 150px;
+    padding: 12px;
+    margin: 12px;
+}
+
+.sidebarGo{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+.ham{
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.ham:hover{
+    background-color: rgb(175, 85, 0)
+}
+
+.cross{
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.cross:hover{
+    background-color:rgb(175, 85, 0)
+}
+@media (max-width: 920px){
+    /*.sidebar{
+        transform: translate(-300px, 0px);
+        position: absolute;
+    }*/
+    .buttons{
+        font-size: 12px;
+    }
+    .btn{
+        font-size: 12px;
+        margin: 3px 23px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic img{
+        height: 20vh;
+    }
+    .info{
+        margin: 50px 8px;
+        margin-left: 20px;
+    }
+}
