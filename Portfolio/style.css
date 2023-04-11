@@ -9,7 +9,7 @@
     position: absolute;
     background-color: rgb(235, 187, 31);
     font-family: 'Hind', sans-serif;
-    height: 200vh;
+    height: 400vh;
     transition: transform 0.3s ease-in;
 }
 
