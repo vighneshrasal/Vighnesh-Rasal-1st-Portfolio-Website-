@@ -116,19 +116,20 @@
 .contactpage{
     font-family: 'Hind', sans-serif;
     color: rgb(15, 65, 122);
-    padding: 0 34px;
+    padding: 0 286px;
     padding-top: 100px;
     margin: 50px -15px;
+  
 }
 
-.contactpage h2{
+.contactpage h2 {
     font-family: 'Hind', sans-serif;
 }
 
 .contactpage form div{
     padding: 5px 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .contactpage form div input{
@@ -205,6 +206,17 @@
 .cross:hover{
     background-color:rgb(175, 85, 0)
 }
+
+.socials{
+    padding-right: 400px;
+    padding-top: 225px;
+    display: flex;
+}
+
+.socials img{
+    height: 250px;
+}
+
 @media (max-width: 920px){
     /*.sidebar{
         transform: translate(-300px, 0px);
@@ -226,5 +238,14 @@
     .info{
         margin: 50px 8px;
         margin-left: 20px;
+    }
+    .contactpage{
+        padding: 0 34px;
+    }
+    .socials{
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 0px;
+    padding-top: 36px;
     }
 }
