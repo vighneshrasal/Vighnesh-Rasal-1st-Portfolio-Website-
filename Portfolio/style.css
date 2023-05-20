@@ -9,7 +9,7 @@
     position: absolute;
     background-color: rgb(235, 187, 31);
     font-family: 'Hind', sans-serif;
-    height: 300vh;
+    height: 100vh;
     transition: transform 0.3s ease-in;
 }
 
@@ -242,10 +242,36 @@
     .contactpage{
         padding: 0 34px;
     }
-    .socials{
+    .socials img{
     justify-content: center;
     flex-direction: column;
-    padding-right: 0px;
-    padding-top: 36px;
+    /* padding-right: 0px;
+    padding-top: 36px; */
+    width: 150px;
+    height: 200px;
+    }
+
+    #java{
+        width: 50px;
+        height: 75px;
+    }
+
+    #html{
+        width: 50px;
+        height: 75px;
+    }
+
+    #css{
+        width: 50px;
+        height: 75px;
+    }
+
+    #js{
+        width: 50px;
+        height: 75px;
+    }
+
+    .info h2{
+        font-size: x-large;
     }
 }
