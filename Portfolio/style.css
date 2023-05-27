@@ -108,6 +108,16 @@
     border-color: rgb(235, 187, 31);
 }
 
+#insta{
+    height: 30px;
+    border-style: none;
+}
+
+#linked{
+    border-style: none;
+    height: 30px;
+}
+
 .contactmain{
     width: 90vw;
     background-color: rgb(255, 255, 255);
@@ -186,7 +196,6 @@
     cursor: pointer;
     top: 10px;
     left: 10px;
-
 }
 
 .ham{
@@ -215,6 +224,10 @@
 
 .socials img{
     height: 250px;
+}
+
+.resumecontent{
+    margin-right: 450px;
 }
 
 @media (max-width: 920px){
@@ -273,5 +286,10 @@
 
     .info h2{
         font-size: x-large;
+    }
+
+    .resumecontent img{
+        width: 400px;
+        height: 400px;
     }
 }
